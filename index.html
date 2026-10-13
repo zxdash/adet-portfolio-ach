@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="My personal portfolio as a BSIT student.">
+
+    <title>My Portfolio | Ashley</title>
+
+    <!-- Connects the external CSS file. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Loads the JavaScript after the HTML is parsed. -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- contains the brand and navigation links. -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo">Ashley<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- changes the website's color theme -->
+            <button id="theme-toggle" type="button"
+                    aria-label="Switch to dark mode"
+                    aria-pressed="false">
+                 ⏾ Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <!-- primary content of the portfolio -->
+    <main>
+
+        <!-- Hero section introduces the portfolio owner. -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">nyak nyak nyak nyak</p>
+
+                <h1>Hi, I'm <span>Ashley Nicole</span></h1>
+
+                <h2>BSIT Student | Future Web Developer</h2>
+
+                <p>
+                    I enjoy exploring technology, designing user-friendly
+                    interfaces, and learning how websites and applications
+                    work. I'm continuously improving my skills one project
+                    at a time.
+                </p>
+
+                <a href="#projects" class="btn">Explore My Projects</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="pic.jpg" 
+                    alt="achley">
+            </div>
+        </section>
+
+        <!-- About section provides more information about the owner. -->
+        <section id="about" class="section about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    I'm a third-year Bachelor of Science in Information
+                    Technology student at Bulacan State University,
+                    majoring in Web and Mobile Applications Development.
+                </p>
+
+                <p>
+                    I'm interested in web development, database design,
+                    and creating practical digital solutions. As a
+                    student, I value continuous learning, collaboration,
+                    and improving my technical skills through hands-on
+                    projects.
+                </p>
+                   
+                <p class="eyebrow" style="text-align: center;">SKILLS</p>
+                <div class="skills">
+                    
+                    <span>Leadership</span>
+                    <span>Communication</span>
+                    <span>Project Management</span>
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section displays two sample projects. -->
+        <section id="projects" class="section projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE WORKED ON</p>
+                <h2>My Projects</h2>
+                <p>Some academic projects I'm developing and learning from.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- First project card. -->
+                <article class="project-card">
+                    <div class="project-icon">♡</div>
+                    <h3>ElderWatch</h3>
+                    <p>
+                        A proposed senior citizen welfare monitoring
+                        system designed to organize records, healthcare
+                        services, welfare visits, and assistance.
+                    </p>
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Database</span>
+                    </div>
+                </article>
+
+                <!-- Second project card. -->
+                <article class="project-card">
+                    <div class="project-icon">✿</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A responsive personal website that introduces me,
+                        showcases my projects, and provides contact
+                        information using HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer provides contact information and social links. -->
+    <footer id="contact" class="footer">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Wanna reach out?</h2>
+        <p>Feel free to email me or explore my GitHub profile.
+        </p>
+
+        <div class="contact-links">
+            <a href="mailto:ashleynicolesd22@gmail.com">Email Me</a>
+            <a href="https://github.com/zxdash"
+               target="_blank"
+               rel="noopener noreferrer">GitHub</a>
+        </div>
+
+        
+
+        <p class="copyright">
+            © 2026 achley | ashleynicolesd22@gmail.com
+        </p>
+    </footer>
+
+</body>
+</html>
